@@ -29,7 +29,8 @@
     background-repeat: no-repeat;
     color: #ffffff; 
     position: static;
-    padding: 35px;
+    padding-top: 80px;
+    padding-bottom: 50px;
     
 }
 
@@ -41,9 +42,17 @@
     margin-right: 20px; /* Add some spacing between the links */
 }
 
-.home-img {
-    display: flex; /* Use flexbox layout */
-    justify-content: center; /* Center items horizontally */
+.home-continer{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.home-img{
+    padding-left:30px;
+    padding-right:30px;
+
 }
 
 .home-img img {
@@ -54,7 +63,10 @@
 
 .home-text {
     color: #e3f2fd;
-    text-align:left; /* Center the text horizontally */
+    text-align:left; 
+    margin-top: 50px;
+    margin-right:10px;
+
 }
 
 .home-text h1 {
